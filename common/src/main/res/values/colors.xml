@@ -29,4 +29,6 @@
     <color name="magenta">#FF00FF</color>
     <color name="brown">#964B00</color>
     <color name="light_pink">#FF1684</color>
+    <color name="pill_red">#F1B31217</color>
+    <color name="pill_black">#F10F0F0F</color>
 </resources>

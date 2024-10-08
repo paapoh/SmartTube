@@ -32,7 +32,8 @@
                 android:layout_marginLeft="@dimen/lb_basic_card_info_text_margin"
                 android:layout_marginTop="@dimen/lb_basic_card_info_text_margin"
                 android:ellipsize="end"
-                android:fontFamily="sans-serif-condensed"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
                 android:maxLines="1"
                 android:textColor="@color/lb_basic_card_title_text_color"
                 android:textSize="@dimen/lb_basic_card_title_text_size" />
@@ -55,8 +56,9 @@
                 android:id="@+id/extra_badge"
                 android:layout_width="@dimen/lb_basic_card_info_badge_size"
                 android:layout_height="@dimen/lb_basic_card_info_badge_size"
-                android:layout_alignParentBottom="true"
                 android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="#FF0000"
                 android:contentDescription="@null"
                 android:scaleType="fitCenter"
                 android:visibility="gone" />

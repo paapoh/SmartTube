@@ -132,7 +132,7 @@ public class VideoCardPresenter extends LongClickPresenter {
                 video.badge
         );
         cardView.setBadgeColor(video.hasNewContent || video.isLive || video.isUpcoming ?
-                ContextCompat.getColor(context, R.color.dark_red) : ContextCompat.getColor(context, R.color.black));
+                ContextCompat.getColor(context, R.color.pill_red) : ContextCompat.getColor(context, R.color.pill_black));
 
         if (mIsAnimatedPreviewsEnabled) {
             cardView.setPreviewUrl(video.previewUrl);
